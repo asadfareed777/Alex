@@ -38,7 +38,7 @@ object BaseWebservice {
         return retrofitBuilder
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
-            .client(okHttpClient)
+            .client(okHttpClient) 
             .build()
     }
 
